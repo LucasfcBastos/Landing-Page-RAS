@@ -3,7 +3,7 @@
 }
 
 @font-face {
-    font-family: "Battambang"; src: url('../font/Battambang-Regular.ttf');
+    font-family: "Nunito"; src: url('../font/Nunito-VariableFont_wght.ttf');
 }
 
 #bebas {
@@ -11,7 +11,7 @@
 }
 
 #battambang {
-    font-family: "Battambang";
+    font-family: "Nunito";
     text-align: justify;
 }
 
@@ -197,4 +197,41 @@ div.camp_ben div.text {
 
 div.camp_ben div.text p {
     font-size: 1.2em;
+}
+
+div#time div.list {
+    display: flex;
+    gap: 7.5vw;
+    row-gap: 5vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div#time div.list div.member {
+    width: 30em;
+    height: 12.5em;
+    background-color: #FDE2C6;
+    display: flex;
+    border-radius: 1em;
+}
+
+div#time div.list div.member img {
+    height: calc(100%-1em);
+    width: 10em;
+    margin: 1em;
+    border-radius: 12px;
+}
+
+div#time div.list div.member p {
+    font-size: 2em;
+    margin: 0.1em;
+    color: black;
+}
+
+div#time div.list div.member div img {
+    height: 2.5em;
+    width: 2.5em;
+    margin: 1.4em 1em 0 0;
+    cursor: pointer;
+    background-color: white;
 }
