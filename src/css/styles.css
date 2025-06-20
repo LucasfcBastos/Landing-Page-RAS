@@ -12,12 +12,17 @@
 
 #battambang {
     font-family: "Battambang";
+    text-align: justify;
 }
 
 body {
     margin: 0px;
     background-color: #222222;
     color: white;
+}
+
+div.cor {
+    background-color: #0E0E0E;
 }
 
 nav {
@@ -41,6 +46,7 @@ nav button {
     font-size: 2.2em;
     width: 7.5em;
     cursor: pointer;
+    color: white;
 }
 
 nav button:hover {
@@ -86,7 +92,7 @@ div#pain p {
 
 div#pain .list {
     display: flex;
-    margin-top: 1.5em;
+    margin: 2em 0em;
     justify-content: space-around;
 }
 
@@ -106,4 +112,23 @@ div#pain .banner p {
     font-size: 2em;
     margin: 0.5em 0em;
     text-align: center;
+}
+
+div.esp {
+    height: 0.2em;
+}
+
+div.dist {
+    display: flex;
+}
+
+div.dist img {
+    height: 25em;
+    margin-right: 5em;
+}
+
+div.dist p {
+    margin-left: 5em;
+    margin-right: 5em;
+    font-size: 1.8em;
 }
