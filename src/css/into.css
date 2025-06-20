@@ -1,0 +1,47 @@
+div#into {
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    background-image: url("../img/cow.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div#into img {
+    width: 28em;
+    height: 23em;
+    margin-top: 5em;
+    margin-right: 3em;
+}
+
+div#into div {
+    max-width: 18em;
+    font-size: 2em;
+    margin-top: 2.5em;
+    margin-left: 2em;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1143px) {
+    div#into img {
+        display: none;
+    }
+}
+
+@media (max-width: 719px) {
+    div#into div {
+        min-width: 18em;
+        margin-left: 50%;
+        transform: translate(-50%);
+        text-align: center;
+    }
+}
+
+@media (max-width: 594px) {
+    div#into div {
+        font-size: 5vw;
+    }
+}

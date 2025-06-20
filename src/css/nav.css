@@ -1,0 +1,28 @@
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    position: fixed;
+    width: calc(100% - 1em);
+    z-index: 1;
+}
+
+nav img {
+    width: 4em;
+}
+
+nav button {
+    border: 0px;
+    border-radius: 15em;
+    background-color: #63B55A;
+    font-weight: bold;
+    font-size: 2.2em;
+    width: 7.5em;
+    cursor: pointer;
+    color: white;
+}
+
+nav button:hover {
+    background-color: #386833;
+}
