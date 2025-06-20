@@ -10,7 +10,14 @@
     font-family: "Bebas_Neue";
 }
 
-#battambang {
+h1#bebas,
+h2#bebas,
+h3#bebas {
+    margin: 0;
+    padding: 1em 0 1em 0;
+}
+
+#Nunito {
     font-family: "Nunito";
     text-align: justify;
 }
@@ -119,10 +126,6 @@ div#pain .banner p {
     text-align: center;
 }
 
-div.esp {
-    height: 0.2em;
-}
-
 div.dist {
     display: flex;
 }
@@ -224,14 +227,107 @@ div#time div.list div.member img {
 
 div#time div.list div.member p {
     font-size: 2em;
-    margin: 0.1em;
+    margin: 0.6em 0 0 0;
     color: black;
 }
 
 div#time div.list div.member div img {
     height: 2.5em;
     width: 2.5em;
-    margin: 1.4em 1em 0 0;
+    margin: 2em 1em 0 0;
     cursor: pointer;
     background-color: white;
+}
+
+div.end {
+    margin: 4.2em 0 0 0;
+    width: 100%;
+    background-color: black;
+}
+
+div.end #patro {
+    justify-content: center;
+    padding-top: 2em;
+    display: flex;
+    gap: 2.5em;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+div.end #patro img {
+    width: 12.5em;
+}
+
+div.end footer {
+    justify-items: center;
+    padding-bottom: 0.1em;
+}
+
+/* -------------------------------------------------- */
+
+div.end .timeline {
+    width: 80%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    padding: 2em 0em;
+}
+
+div.end .timeline .line {
+    margin: 0 4em 0 4em;
+    height: 0.3em;
+    background-color: white;
+    border-radius: 10em;
+    position: relative;
+    top: -1.4em;
+    z-index: -1;
+}
+
+div.end .timeline .steps {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.end .timeline .step {
+    display: block;
+}
+
+div.end .timeline .step p{
+    width: 9em;
+    font-family: "Nunito";
+    text-align: center;
+}
+
+div.end .timeline .circle {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    border: 0.3em solid white;
+    margin: 0 auto;
+}
+
+div.end .timeline .step:nth-child(1) .circle {
+    background-color: #193D6B;
+}
+
+div.end .timeline .step:nth-child(2) .circle {
+    background-color: #F28C28;
+}
+
+div.end .timeline .step:nth-child(3) .circle {
+    background-color: black;
+}
+
+div.end .timeline .arrow {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid white;
+    margin: 0 auto;
+    position: relative;
+    top: -8px;
+}
+
+div.end .timeline .arrow.N {
+    visibility: hidden;
 }
