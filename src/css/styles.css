@@ -41,21 +41,6 @@ h3 {
     font-size: 2.2em;
 }
 
-div.dist {
-    display: flex;
-}
-
-div.dist img {
-    height: 25em;
-    margin-right: 5em;
-}
-
-div.dist p {
-    margin-left: 5em;
-    margin-right: 5em;
-    font-size: 1.8em;
-}
-
 div#benefits div.camp_ben {
     width: 100%;
     height: 20em;

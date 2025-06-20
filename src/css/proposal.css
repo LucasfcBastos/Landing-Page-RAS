@@ -1,0 +1,41 @@
+div.dist {
+    display: flex;
+}
+
+div.dist img {
+    height: 25em;
+    margin-right: 5em;
+}
+
+div.dist p {
+    margin: 0em 3em 0em 3em;
+    font-size: 2.5vw;
+}
+
+@media (max-width: 1050px) {
+    div.dist {
+        display: flex;
+        align-items: center;
+    }
+
+    div.dist img {
+        height: 40vw;
+    }
+}
+
+@media (max-width: 695px) {
+    div.dist {
+        display: block;
+        justify-items: center;
+    }
+
+    div.dist img {
+        height: 50vw;
+        margin-right: 0em;
+    }
+
+    div.dist p {
+        margin: 0em 1.5em 2em 1.5em;
+        font-size: 5vw;
+    }
+}
