@@ -41,11 +41,6 @@ div#into div {
 }
 
 @media (max-width: 594px) {
-    div#into {
-        width: 103%;
-        height: 103dvh;
-    }
-
     div#into div {
         font-size: 5vw;
     }
