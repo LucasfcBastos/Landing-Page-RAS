@@ -30,7 +30,7 @@ div#time div.list div.member p {
 div#time div.list div.member div img {
     height: 2.5em;
     width: 2.5em;
-    margin: 2em 1em 0 0;
+    margin: 15% 5% 0 0;
     cursor: pointer;
     background-color: white;
 }
@@ -65,7 +65,8 @@ div#time div.list div.member div img {
 
     div#time div.list div.member img {
         height: calc(100%-1em);
-        width: 30vw;
+        width: 32vw;
+        margin: 0.5em;
     }
 
     div#time div.list div.member p {
