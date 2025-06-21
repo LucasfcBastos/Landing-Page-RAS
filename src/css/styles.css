@@ -41,43 +41,6 @@ h3 {
     font-size: 2.2em;
 }
 
-div#time div.list {
-    display: flex;
-    gap: 7.5vw;
-    row-gap: 5vw;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-div#time div.list div.member {
-    width: 30em;
-    height: 12.5em;
-    background-color: #FDE2C6;
-    display: flex;
-    border-radius: 1em;
-}
-
-div#time div.list div.member img {
-    height: calc(100%-1em);
-    width: 10em;
-    margin: 1em;
-    border-radius: 12px;
-}
-
-div#time div.list div.member p {
-    font-size: 2em;
-    margin: 0.6em 0 0 0;
-    color: black;
-}
-
-div#time div.list div.member div img {
-    height: 2.5em;
-    width: 2.5em;
-    margin: 2em 1em 0 0;
-    cursor: pointer;
-    background-color: white;
-}
-
 @media (max-width: 695px) {
     h2 {
         font-size: 7vw;

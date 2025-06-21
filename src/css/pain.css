@@ -57,10 +57,9 @@ div#pain .banner p {
     }
 
     div#pain .banner img {
+        position: relative;
         width: 75%;
         height: 88%;
-        margin: 0;
-        margin-left: 50%;
-        transform: translate(-50%);
+        margin-left: 12.5%;
     }
 }
