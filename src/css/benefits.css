@@ -1,0 +1,93 @@
+div#benefits div.camp_ben {
+    width: 100%;
+    border-top: 1.5em solid #63B55A;
+}
+
+div.camp_ben div.flag {
+    position: absolute;
+    width: 10em;
+    margin-left: 5em;
+    margin-top: -4em;
+}
+
+div.camp_ben div.flag div.squar{
+    background-color: #63B55A;
+    width: 100%;
+    height: 3em;
+    justify-items: center;
+    font-size: 4em;
+    border-radius: 0em 0em 0.5em 0.5em;
+}
+
+div.camp_ben div.flag div.log{
+    background-color: #0E0E0E;
+    width: 8em;
+    height: 8em;
+    margin-top: -4em;
+    margin-left: 1em;
+    transform: rotate(45deg);
+    border-radius: 0.5em 0em 0em 0em;
+    position: absolute;
+}
+
+div.camp_ben div.banner {
+    position: absolute;
+    background-color: #5E7CA2;
+    right: 0em;
+    width: 12em;
+    height: 15em;
+    margin-right: 5em;
+    border-bottom: 0.5em solid #214069;
+    align-content: center;
+}
+
+div.camp_ben div.banner img {
+    width: 8em;
+    height: 8em;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+div.camp_ben div.text {
+    width: calc(100%-10em);
+    margin: 0em 19em 0em 17em;
+    padding-bottom: 5em;
+}
+
+div.camp_ben div.text p {
+    font-size: 1.2em;
+}
+
+@media (max-width: 875px) {
+    div.camp_ben div.text {
+        margin: 0em 2em 0em 2em;
+        padding-top: 15em;
+        padding-bottom: 2em;
+    }
+}
+
+@media (max-width: 528px) {
+    div.camp_ben div.flag {
+        width: 35vw;
+        margin-left: 5%;
+    }
+
+    div.camp_ben div.flag div.log{
+        width: 25vw;
+        height: 25vw;
+        margin-top: -15vw;
+        margin-left: 5vw;
+    }
+
+    div.camp_ben div.banner {
+        width: 35vw;
+        height: 45vw;
+        margin-right: 5%;
+        border-bottom: 1.7vw solid #214069;
+    }
+
+    div.camp_ben div.banner img {
+        width: 25vw;
+        height: auto;
+    }
+}
